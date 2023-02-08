@@ -22,13 +22,13 @@
 
 <section class="header">
 
-   <a href="home.html" class="logo">travel.</a>
+   <a href="home.php" class="logo">travel.</a>
 
    <nav class="navbar">
-      <a href="home.html">home</a>
-      <a href="about.html">about</a>
-      <a href="package.html">package</a>
-      <a href="book.html">book</a>
+      <a href="home.php">home</a>
+      <a href="about.php">about</a>
+      <a href="package.php">package</a>
+      <a href="book.php">book</a>
    </nav>
 
    <div id="menu-btn" class="fas fa-bars"></div>
@@ -47,7 +47,7 @@
 
    <h1 class="heading-title">book your trip!</h1>
 
-   <form action="book_form.html" method="post" class="book-form">
+   <form action="book_form.php" method="post" class="book-form">
 
       <div class="flex">
          <div class="inputBox">
@@ -116,10 +116,10 @@
 
       <div class="box">
          <h3>quick links</h3>
-         <a href="home.html"> <i class="fas fa-angle-right"></i> home</a>
-         <a href="about.html"> <i class="fas fa-angle-right"></i> about</a>
-         <a href="package.html"> <i class="fas fa-angle-right"></i> package</a>
-         <a href="book.html"> <i class="fas fa-angle-right"></i> book</a>
+         <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
+         <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
+         <a href="package.php"> <i class="fas fa-angle-right"></i> package</a>
+         <a href="book.php"> <i class="fas fa-angle-right"></i> book</a>
       </div>
 
       <div class="box">
