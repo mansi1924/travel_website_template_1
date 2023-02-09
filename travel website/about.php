@@ -11,6 +11,7 @@
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
@@ -27,6 +28,7 @@
    <nav class="navbar">
       <a href="home.php">home</a>
       <a href="about.php">about</a>
+      <a href="services.php">service</a>
       <a href="package.php">package</a>
       <a href="book.php">book</a>
    </nav>
@@ -38,31 +40,31 @@
 <!-- header section ends -->
 
 <div class="heading" style="background:url(images/header-bg-1.png) no-repeat">
-   <h1>about us</h1>
+   <h1 data-aos="fade-in" data-aos-duration="2000">about us</h1>
 </div>
 
 <!-- about section starts  -->
 
 <section class="about">
 
-   <div class="image">
+   <div class="image" data-aos="flip-left" data-aos-duration="5000">
       <img src="images/about-img.jpg" alt="">
    </div>
 
    <div class="content">
-      <h3>why choose us?</h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure numquam nulla iusto corporis dolor commodi libero, vitae obcaecati optio rerum ab culpa nesciunt, earum mollitia quasi ipsam non. Aliquid, iure.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum, delectus voluptate aliquam quaerat iusto repellendus error nulla ab atque.</p>
+      <h3 data-aos="fade-left">why choose us?</h3>
+      <p data-aos="fade-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure numquam nulla iusto corporis dolor commodi libero, vitae obcaecati optio rerum ab culpa nesciunt, earum mollitia quasi ipsam non. Aliquid, iure.</p>
+      <p data-aos="fade-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum, delectus voluptate aliquam quaerat iusto repellendus error nulla ab atque.</p>
       <div class="icons-container">
-         <div class="icons">
+         <div class="icons" data-aos="flip-right" data-aos-duration="5000">
             <i class="fas fa-map"></i>
             <span>top destinations</span>
          </div>
-         <div class="icons">
+         <div class="icons" data-aos="flip-right" data-aos-duration="5000">
             <i class="fas fa-hand-holding-usd"></i>
             <span>affordable price</span>
          </div>
-         <div class="icons">
+         <div class="icons" data-aos="flip-right" data-aos-duration="5000">
             <i class="fas fa-headset"></i>
             <span>24/7 guide service</span>
          </div>
@@ -77,13 +79,13 @@
 
 <section class="reviews">
 
-   <h1 class="heading-title"> clients reviews </h1>
+   <h1 class="heading-title" data-aos="fade-in" data-aos-duration="2000"> clients reviews </h1>
 
    <div class="swiper reviews-slider">
 
       <div class="swiper-wrapper">
 
-         <div class="swiper-slide slide">
+         <div class="swiper-slide slide" data-aos="slide-down">
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -97,7 +99,7 @@
             <img src="images/pic-1.png" alt="">
          </div>
 
-         <div class="swiper-slide slide">
+         <div class="swiper-slide slide" data-aos="slide-down">
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -110,7 +112,7 @@
             <img src="images/pic-2.png" alt="">
          </div>
 
-         <div class="swiper-slide slide">
+         <div class="swiper-slide slide" data-aos="slide-down">
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -122,7 +124,7 @@
             <img src="images/pic-3.png" alt="">
          </div>
 
-         <div class="swiper-slide slide">
+         <div class="swiper-slide slide" data-aos="slide-down">
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -136,7 +138,7 @@
             <img src="images/pic-4.png" alt="">
          </div>
 
-         <div class="swiper-slide slide">
+         <div class="swiper-slide slide" data-aos="slide-down">
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -148,7 +150,7 @@
             <img src="images/pic-5.png" alt="">
          </div>
 
-         <div class="swiper-slide slide">
+         <div class="swiper-slide slide" data-aos="slide-down">
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -189,7 +191,7 @@
 
    <div class="box-container">
 
-      <div class="box">
+      <div class="box" data-aos="flip-left">
          <h3>quick links</h3>
          <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
          <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
@@ -197,7 +199,7 @@
          <a href="book.php"> <i class="fas fa-angle-right"></i> book</a>
       </div>
 
-      <div class="box">
+      <div class="box" data-aos="flip-right">
          <h3>extra links</h3>
          <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
          <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
@@ -205,7 +207,7 @@
          <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
       </div>
 
-      <div class="box">
+      <div class="box" data-aos="flip-left">
          <h3>contact info</h3>
          <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
          <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
@@ -213,7 +215,7 @@
          <a href="#"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
       </div>
 
-      <div class="box">
+      <div class="box" data-aos="flip-right">
          <h3>follow us</h3>
          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
@@ -226,6 +228,7 @@
    <div class="credit"> created by <span>mr. web designer</span> | all rights reserved! </div>
 
 </section>
+
 
 <!-- footer section ends -->
 
@@ -242,6 +245,13 @@
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 250,
+      duration:1000,
+    });
+  </script>
 
 </body>
 </html>
